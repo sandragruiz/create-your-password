@@ -30,6 +30,8 @@ function writePassword() {
   }
 }
 
+// Generate password function with for loop //
+
 function generatePassword () {
   var password = "";
   for(var i = 0; i < charLength; i++) {
@@ -38,6 +40,8 @@ function generatePassword () {
   }
   return password;
 }
+
+// Prompt questions and conditions //
 
 function givePrompts() {
   charChoice=[];
